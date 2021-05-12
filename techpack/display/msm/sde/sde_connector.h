@@ -476,7 +476,6 @@ struct sde_connector {
 	spinlock_t event_lock;
 
 	struct backlight_device *bl_device;
-	struct sde_clone_cdev *cdev_clone;
 	struct delayed_work status_work;
 	u32 esd_status_interval;
 	bool panel_dead;
